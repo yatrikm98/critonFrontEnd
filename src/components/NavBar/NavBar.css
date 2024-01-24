@@ -1,0 +1,31 @@
+.navBar-main-div {
+
+}
+
+
+
+.navBar-middleDIv {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem ;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    
+}
+.navLink {
+    text-decoration: none ;
+    color: blue;
+}
+.navLink:hover {
+    color: black;
+}
+.active {
+    /* color: red; */
+    text-decoration: underline;
+}

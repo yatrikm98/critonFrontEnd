@@ -1,0 +1,58 @@
+.outerModal {
+    position: fixed;
+    inset: 0;
+    background-color: gray;
+    opacity: 0.9;
+
+}
+
+.innerModalMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerModal {
+    position: fixed;
+    height: auto;
+    width: auto;
+    background-color: white;
+    /* opacity: 1; */
+}
+
+.upperPartEditDiv {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.editBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.lowerPartEditDiv {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.updateButtonDiv {
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.updateButton {
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .upperPartEditDiv,
+    .lowerPartEditDiv {
+        display: flex;
+        flex-direction: column;
+    }
+}

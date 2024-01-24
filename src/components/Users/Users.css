@@ -1,0 +1,139 @@
+.signOutButton {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.button-User {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    background-color: #007FFF;
+    color: white;
+    font-size: 20px;
+    border-color: #007FFF;
+    border: 0px;
+}
+
+.button-User:hover {
+    background-color:#318CE7;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.thead {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.heading {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    padding: 10px;
+}
+
+.lineDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontalLine {
+    width: 80vw;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: ; */
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fullRow {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.greterThan768 {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    font-weight: normal;
+}
+.onEdit {
+    margin-top: 0.1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.onTrash {
+    cursor: pointer;
+}
+.onEdit:hover,
+.onTrash:hover {
+    color: #007FFF;
+}
+
+.userText {
+font-weight: none;
+}
+
+.userContact {
+
+}
+
+.action {
+
+}
+
+
+.bigTableDiv {
+    display: none;
+}
+
+/* After 768 px  */
+@media (max-width: 768px){
+    .row-media {
+        width: 80vw;
+        border-bottom: 2px solid black;
+    }
+    .commonDiv{
+        display: flex;
+        justify-content: space-between;
+    }
+    .internalActionDiv {
+        display: flex;
+        align-items: center;
+    }
+    .bigTableDiv {
+     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
